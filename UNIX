@@ -9,7 +9,6 @@
 │   ├── cybertron.jpeg
 │   └── terre.jpeg
 └── real
-    ├── dwarf-planets
     ├── gas-giants
     │   ├── jupiter.jpeg
     │   ├── neptune.jpeg
@@ -359,7 +358,8 @@
   239  ls
   240  cd ..
   241  ls
-  242  rm pluto.jpeg
-  243  ls
-  244  tree
-  245  history
+  242  rm -r pluto.jpeg
+  243  rmdir dwarf-planets
+  244  ls
+  245  tree
+  246  history
